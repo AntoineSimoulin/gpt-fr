@@ -11,7 +11,7 @@
 
 ## Intended uses & limitations
 
-The model can be leveraged for language generation tasks. Besides, many tasks may be formatted such that the output is directly generated in natural language. Such configuration may be used for tasks such as automatic summary or question answering tasks. We do hope our model might be used for both academic and industrial applications. 
+The model can be leveraged for language generation tasks. Besides, many tasks may be formatted such that the output is directly generated in natural language. Such configuration may be used for tasks such as automatic summary or question answering. We do hope our model might be used for both academic and industrial applications. 
 
 ### How to use
 
@@ -62,7 +62,7 @@ We created a dedicated corpus to train our generative model. Indeed the model us
 
 We pre-trained the `small` model on a TPU v2-8 using the amazing [Google Colab](https://colab.research.google.com) inter-server.
 
-We pre-trained the `base` model on the new CNRS (French National Centre for Scientific Research) [Jean Zay](http://www.idris.fr/eng/jean-zay/) supercomputer. We perform the training within a total of 140 hours of computation on Tesla V-100 hardware (TDP of 300W). The training was distributed on 4 compute nodes of 8 GPUs. We used data parallelization in order to divide each micro-batch on the computing units. We estimated the total emissions at 580.61 kgCO2eq, using the [Machine Learning Impact calculator](https://mlco2.github.io/impact#compute) presented in ([Lacoste et al., 2019](lacoste-2019)).
+We pre-trained the `base` model on the new CNRS (French National Centre for Scientific Research) [Jean Zay](http://www.idris.fr/eng/jean-zay/) supercomputer. We perform the training within a total of 140 hours of computation on Tesla V-100 hardware (TDP of 300W). The training was distributed on 4 compute nodes of 8 GPUs. We used data parallelization in order to divide each micro-batch on the computing units. We estimated the total emissions at 580.61 kgCO2eq, using the [Machine Learning Impact calculator](https://mlco2.github.io/impact#compute) presented in [Lacoste et al., (2019)](lacoste-2019).
 
 ## Eval results
 
