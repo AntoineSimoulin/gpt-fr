@@ -1,8 +1,9 @@
 # GPT 🇫🇷
 
+<img src="imgs/logo.png" width="200">
+
 # Generative Pretrained Transformers for French
 
-<img src="imgs/logo.png" width="200">
 
 **GPT-fr** is a French GPT model for French developped by [Quantmetry](https://www.quantmetry.com/) and the [Laboratoire de Linguistique Formelle (LLF)](http://www.llf.cnrs.fr/en). We train the model on a very large and heterogeneous French corpus. We release the weights for the following configurations:
 
