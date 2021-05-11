@@ -1,5 +1,3 @@
-# GPT 🇫🇷
-
 <img src="imgs/logo.png" width="200">
 
 # Generative Pretrained Transformers for French
