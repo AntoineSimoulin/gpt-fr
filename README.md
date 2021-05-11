@@ -72,7 +72,6 @@ In line with the [WikiText](https://blog.einstein.ai/the-wikitext-long-term-depe
 
 If you use **GPT-fr** for your scientific publication or your industrial applications, please cite the following paper:
 
-[TALN paper](https://hal.archives-ouvertes.fr/hal-02784776/)
 ```bibtex
 @inproceedings{simoulin_2020_gptfr,
   title         = {Un modèle Transformer Génératif Pré-entraîné pour le ______ français},
