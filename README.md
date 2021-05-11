@@ -1,7 +1,6 @@
-<img src="imgs/logo.png" width="200">
+<img src="imgs/logo.png" width="250">
 
 # Generative Pretrained Transformers for French
-
 
 **GPT-fr** is a French GPT model for French developped by [Quantmetry](https://www.quantmetry.com/) and the [Laboratoire de Linguistique Formelle (LLF)](http://www.llf.cnrs.fr/en). We train the model on a very large and heterogeneous French corpus. We release the weights for the following configurations:
 
@@ -14,7 +13,7 @@
 
 The model can be leveraged for language generation tasks. Besides, many tasks may be formatted such that the output is directly generated in natural language. Such configuration may be used for tasks such as automatic summary or question answering tasks. We do hope our model might be used for both academic and industrial applications. 
 
-#### How to use
+### How to use
 
 The model might be used through the astonishing 🤗 `Transformers` librairie. We use the work from [Shoeybi et al., (2019)](#shoeybi-2019) and calibrate our model such that during pre-training or fine-tuning, the model can fit on a single NVIDIA V100 32GB GPU.
 
@@ -44,7 +43,7 @@ print("Output:\n" + 100 * '-')
 print(tokenizer.decode(beam_outputs[0], skip_special_tokens=True))
 ```
 
-#### Limitations and bias
+### Limitations and bias
 
 Large language models tend to replicate the biases found in pre-training datasets, such as gender discrimination or offensive content generation.
 
@@ -53,13 +52,17 @@ To limit exposition to too much explicit material, we carefully choose the sourc
 However, some societal biases, contained in the data, might be reflected by the model. For example on gender equality, we generated the following sentence sequence "Ma femme/Mon mari vient d'obtenir un nouveau poste en tant \_\_\_\_\_\_\_". We used top-k random sampling strategy with k=50 and stopped at the first punctuation element.
 The positions generated for the wife is '_que professeur de français._' while the position for the husband is '_que chef de projet._'. We do appreciate your feedback to better qualitatively and quantitatively assess such effects.
 
-## Training data
+## Training
+
+### Data
 
 We created a dedicated corpus to train our generative model. Indeed the model uses a fixed-length context size of 1,024 and require long documents to be trained.  We aggregated existing corpora: [Wikipedia](https://dumps.wikimedia.org/frwiki/), [OpenSubtitle](http://opus.nlpl.eu/download.php?f=OpenSubtitles/v2016/mono/) ([Tiedemann, 2012](#tiedemann-2012)), [Gutenberg](http://www.gutenberg.org) and [Common Crawl](http://data.statmt.org/ngrams/deduped2017/) ([Li et al., 2019](li-2019)). Corpora are filtered and separated into sentences. Successive sentences are then concatenated within the limit of 1,024 tokens per document.
 
-## Training procedure
+### Procedure
 
-We pre-trained the model on the new CNRS (French National Centre for Scientific Research) [Jean Zay](http://www.idris.fr/eng/jean-zay/) supercomputer. We perform the training within a total of 140 hours of computation on Tesla V-100 hardware (TDP of 300W). The training was distributed on 4 compute nodes of 8 GPUs. We used data parallelization in order to divide each micro-batch on the computing units. We estimated the total emissions at 580.61 kgCO2eq, using the [Machine Learning Impact calculator](https://mlco2.github.io/impact#compute) presented in ([Lacoste et al., 2019](lacoste-2019)).
+We pre-trained the `small` model on a TPU v2-8 using the amazing [Google Colab](https://colab.research.google.com) inter-server.
+
+We pre-trained the `base` model on the new CNRS (French National Centre for Scientific Research) [Jean Zay](http://www.idris.fr/eng/jean-zay/) supercomputer. We perform the training within a total of 140 hours of computation on Tesla V-100 hardware (TDP of 300W). The training was distributed on 4 compute nodes of 8 GPUs. We used data parallelization in order to divide each micro-batch on the computing units. We estimated the total emissions at 580.61 kgCO2eq, using the [Machine Learning Impact calculator](https://mlco2.github.io/impact#compute) presented in ([Lacoste et al., 2019](lacoste-2019)).
 
 ## Eval results
 
