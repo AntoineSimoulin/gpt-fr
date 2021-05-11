@@ -7,7 +7,7 @@
 | Model name | Number of layers | Attention Heads | Embedding Dimension | Total Parameters |
 | :------:       |   :---: | :---: | :---: | :---: |
 | `gpt-fr-cased-small` | 12    | 12    | 768   | 124 M |
-| `gpt-fr-cased-base` | 24    | 14    | 1792   | 1,017 B |
+| `gpt-fr-cased-base` | 24    | 14    | 1,792   | 1,017 B |
 
 ## Intended uses & limitations
 
@@ -67,7 +67,7 @@ We pre-trained the `base` model on the new CNRS (French National Centre for Scie
 ## Eval results
 
 We packaged **GPT-fr** with a dedicated language model evaluation benchmark for French. 
-In line with the [WikiText](https://blog.einstein.ai/the-wikitext-long-term-dependency-language-modeling-dataset/) benchmark in English, we collected over 70 million tokens from the set of verified [good](https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Articles_de_qualit%C3%A9) and [featured](https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Bons_articles) articles on Wikipedia. The models zero-shot perplexity are given below on the test set.
+In line with the [WikiText](https://blog.einstein.ai/the-wikitext-long-term-dependency-language-modeling-dataset/) benchmark in English, we collected over 70 million tokens from the set of verified [good](https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Articles_de_qualit%C3%A9) and [featured](https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Bons_articles) articles on Wikipedia. The models zero-shot perplexities are given below on the test set.
 
 
 | Model name | Wikitext-FR (perplexity) | 
