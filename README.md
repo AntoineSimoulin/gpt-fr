@@ -82,11 +82,20 @@ In line with the [WikiText](https://blog.einstein.ai/the-wikitext-long-term-depe
 If you use **GPT-fr** for your scientific publication or your industrial applications, please cite the following paper:
 
 ```bibtex
-@inproceedings{simoulin_2020_gptfr,
-  title         = {Un modèle Transformer Génératif Pré-entraîné pour le ______ français},
-  author        = {Simoulin, Antoine and Crabbé, Benoit},
-  year          = {2021},
-  pubstate      = {forthcoming},
+@inproceedings{simoulin:hal-03265900,
+  TITLE = {{Un mod{\`e}le Transformer G{\'e}n{\'e}ratif Pr{\'e}-entrain{\'e} pour le \_\_\_\_\_\_ fran{\c c}ais}},
+  AUTHOR = {Simoulin, Antoine and Crabb{\'e}, Benoit},
+  URL = {https://hal.archives-ouvertes.fr/hal-03265900},
+  BOOKTITLE = {{Traitement Automatique des Langues Naturelles}},
+  ADDRESS = {Lille, France},
+  EDITOR = {Denis, Pascal and Grabar, Natalia and Fraisse, Amel and Cardon, R{\'e}mi and Jacquemin, Bernard and Kergosien, Eric and Balvet, Antonio},
+  PUBLISHER = {{ATALA}},
+  PAGES = {246-255},
+  YEAR = {2021},
+  KEYWORDS = {fran{\c c}ais. ; GPT ; G{\'e}n{\'e}ratif ; Transformer ; Pr{\'e}-entra{\^i}n{\'e}},
+  PDF = {https://hal.archives-ouvertes.fr/hal-03265900/file/7.pdf},
+  HAL_ID = {hal-03265900},
+  HAL_VERSION = {v1},
 }
 ```
 
