@@ -107,13 +107,13 @@ If you use **GPT-fr** for your scientific publication or your industrial applica
 
 ### References
 
-><div name="tiedemann-2012">Jörg Tiedemann: Parallel Data, Tools and Interfaces in OPUS. LREC 2012: 2214-2218</div>
+><div id="tiedemann-2012">Jörg Tiedemann: Parallel Data, Tools and Interfaces in OPUS. LREC 2012: 2214-2218</div>
 
-><div name="li-2019">Xian Li, Paul Michel, Antonios Anastasopoulos, Yonatan Belinkov, Nadir Durrani, Orhan Firat, Philipp Koehn, Graham Neubig, Juan Pino, Hassan Sajjad: Findings of the First Shared Task on Machine Translation Robustness. WMT (2) 2019: 91-102</div>
+><div id="li-2019">Xian Li, Paul Michel, Antonios Anastasopoulos, Yonatan Belinkov, Nadir Durrani, Orhan Firat, Philipp Koehn, Graham Neubig, Juan Pino, Hassan Sajjad: Findings of the First Shared Task on Machine Translation Robustness. WMT (2) 2019: 91-102</div>
 
-><div name="shoeybi-2019">Mohammad Shoeybi, Mostofa Patwary, Raul Puri, Patrick LeGresley, Jared Casper, Bryan Catanzaro: Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism. CoRR abs/1909.08053 (2019)</div>
+><div id="shoeybi-2019">Mohammad Shoeybi, Mostofa Patwary, Raul Puri, Patrick LeGresley, Jared Casper, Bryan Catanzaro: Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism. CoRR abs/1909.08053 (2019)</div>
 
-><div name="lacoste-2019">Alexandre Lacoste, Alexandra Luccioni, Victor Schmidt, Thomas Dandres: Quantifying the Carbon Emissions of Machine Learning. CoRR abs/1910.09700 (2019)</div>
+><div id="lacoste-2019">Alexandre Lacoste, Alexandra Luccioni, Victor Schmidt, Thomas Dandres: Quantifying the Carbon Emissions of Machine Learning. CoRR abs/1910.09700 (2019)</div>
 
 ### Acknowledgements
 
