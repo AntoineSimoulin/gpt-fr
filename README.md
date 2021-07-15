@@ -15,7 +15,13 @@ The model can be leveraged for language generation tasks. Besides, many tasks ma
 
 ### How to use
 
-The model might be used through the astonishing 🤗 `Transformers` librairie. We use the work from [Shoeybi et al., (2019)](#shoeybi-2019) and calibrate our model such that during pre-training or fine-tuning, the model can fit on a single NVIDIA V100 32GB GPU.
+We provide a set of demonstration notebooks to use the model:
+
+| Notebook | Link |
+|:---:|---|
+| Basic model usage and text generation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AntoineSimoulin/gpt-fr/notebooks/blob/master/gpt%20fr%20text%20generation.ipynb) | 
+
+The model might be used through the 🤗 `Transformers` librairie. We use the work from [Shoeybi et al., (2019)](#shoeybi-2019) and calibrate our model such that during pre-training or fine-tuning, the model can fit on a single NVIDIA V100 32GB GPU.
 
 ```python
 from transformers import GPT2Tokenizer, GPT2LMHeadModel
