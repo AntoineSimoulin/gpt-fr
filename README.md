@@ -85,7 +85,7 @@ In line with the [WikiText](https://blog.einstein.ai/the-wikitext-long-term-depe
 
 ### BibTeX entry and citation info
 
-If you use **GPT-fr** for your scientific publication or your industrial applications, please cite the following paper:
+If you use **GPT-fr** for your scientific publication or your industrial applications, please cite the following [paper](https://hal.archives-ouvertes.fr/hal-03265900/document):
 
 ```bibtex
 @inproceedings{simoulin:hal-03265900,
