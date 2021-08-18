@@ -9,6 +9,13 @@
 | `gpt-fr-cased-small` | 12    | 12    | 768   | 124 M |
 | `gpt-fr-cased-base` | 24    | 14    | 1,792   | 1,017 B |
 
+## TALN 2021 Presentation
+
+[![TALN 2021 - Un modèle Transformer Génératif Pré-entrainé pour le ______ français
+](imgs/youtube.png)](https://www.youtube.com/watch?v=tN_NF68QvOs "TALN 2021 - Un modèle Transformer Génératif Pré-entrainé pour le ______ français
+")
+
+
 ## Intended uses & limitations
 
 The model can be leveraged for language generation tasks. Besides, many tasks may be formatted such that the output is directly generated in natural language. Such configuration may be used for tasks such as automatic summary or question answering. We do hope our model might be used for both academic and industrial applications. 
