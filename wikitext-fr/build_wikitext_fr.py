@@ -89,7 +89,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--good_articles', action='store_true', help="name of the dataset")
     parser.add_argument('--year_min', default=2003, type=int, help="minimum year")
-    parser.add_argument('--year_max', default=2003, type=int, help="maximum year")
+    parser.add_argument('--year_max', default=2018, type=int, help="maximum year")
     parser.add_argument('--output_dir', required=True, help="output dir to save data")
     parser.add_argument('--n_procs', required=True, type=int, help="number of processes to parallelize download")
     args = parser.parse_args()
