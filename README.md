@@ -12,8 +12,7 @@
 ## TALN 2021 Presentation
 
 [![TALN 2021 - Un modèle Transformer Génératif Pré-entrainé pour le ______ français
-](imgs/youtube.png)](https://www.youtube.com/watch?v=tN_NF68QvOs "TALN 2021 - Un modèle Transformer Génératif Pré-entrainé pour le ______ français
-")
+](imgs/youtube.png)](https://www.youtube.com/watch?v=tN_NF68QvOs "TALN 2021 - Un modèle Transformer Génératif Pré-entrainé pour le ______ français")
 
 
 ## Intended uses & limitations
@@ -26,7 +25,8 @@ We provide a set of demonstration notebooks to use the model:
 
 | Notebook | Link |
 |:---:|---|
-| Basic model usage and text generation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AntoineSimoulin/gpt-fr/blob/main/notebooks/gpt_fr_text_generation.ipynb) | 
+| Basic model usage and text generation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AntoineSimoulin/gpt-fr/blob/main/notebooks/gpt_fr_text_generation.ipynb) |
+| Basic model usage and text generation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AntoineSimoulin/gpt-fr/blob/main/notebooks/gpt_fr_perplexity_evaluation.ipynb) |
 
 The model might be used through the 🤗 `Transformers` librairie. We use the work from [Shoeybi et al., (2019)](#shoeybi-2019) and calibrate our model such that during pre-training or fine-tuning, the model can fit on a single NVIDIA V100 32GB GPU.
 
